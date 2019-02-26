@@ -20,21 +20,31 @@
 
 .ax-animicon--cross {
   & .ax-animicon__path-1,
-  & .ax-animicon__path-2 {
+  & .ax-animicon__path-2,
+  & .ax-animicon__path-3 {
     stroke-dasharray: 14;
     stroke-dashoffset: 14;
-    animation-duration: var(--transition-time-base);
     animation-fill-mode: forwards;
     animation-timing-function: var(--transition-function);
   }
-
-  & .ax-animicon__path-1 { animation-delay: 0ms; }
-  & .ax-animicon__path-2 { animation-delay: var(--transition-time-fast); }
+  & .ax-animicon__path-1 {
+    animation-delay: 0ms;
+    animation-duration: var(--transition-time-base);
+  }
+  & .ax-animicon__path-2 {
+    animation-delay: var(--transition-time-fast);
+    animation-duration: var(--transition-time-slow);
+  }
+  & .ax-animicon__path-3 {
+    animation-delay: var(--transition-time-base);
+    animation-duration: var(--transition-time-slow);
+  }
 }
 
 .ax-animicon--cross-in {
   & .ax-animicon__path-1,
-  & .ax-animicon__path-2 {
+  & .ax-animicon__path-2,
+  & .ax-animicon__path-3 {
     animation-name: ax-animicon-cross;
   }
 }
