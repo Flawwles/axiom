@@ -32,13 +32,13 @@ npm i @brandwatch/axiom-components
 import { ButtonGroup, ButtonIcon, Button } from '@brandwatch/axiom-components';
 ```
 
-You can now use the button component - To see how this can be styled and used - [Button Docs](./CONTRIBUTING.md)
+You can now use the button component - To see how this can be styled and setup see [Button Docs](./CONTRIBUTING.md)
 ```
 <Button size="medium">medium</Button>
 ```
 #### Check the theme
 
-Axiom needs to run in one of two theme, day or night.
+Axiom needs to run in one of two themes, day or night.
 
 The class of `ax-theme--day` or `ax-theme--night` should be applied to either `<html>`, `<body>`, or an app encompassing `<div>`
 
