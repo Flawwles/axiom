@@ -19,7 +19,7 @@
 
 The best way to consume Axiom-React is with the `npm` package - You can use `yarn` too if you prefer
 
-First install which part of Axiom you need - Refer to the Packages table below for more information about what is within each package
+First install which part of Axiom you need - Refer to the [Packages table](#Packages) below for more information about what is within each package
 
 #### Adding the button component
 
