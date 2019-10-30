@@ -139,6 +139,9 @@ export default class Position extends Component {
         preventOverflow: {
           boundariesElement,
         },
+        computeStyle: {
+          gpuAcceleration: false,
+        },
       },
     });
   }
